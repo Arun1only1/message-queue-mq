@@ -28,13 +28,11 @@ To run this project locally, follow these steps:
 
 1. Clone this repository
 
-2. Use docker compose to build and execute project.
+2. Run `docker compose build` command on the terminal in project directory where docker-compose.yml file is present.
 
-3. Run "docker compose build" command on the terminal in project directory where docker-compose.yml file is present.
+3. Run `docker compose up` command on the terminal in project directory where docker-compose.yml file is present.
 
-4. Run "docker compose up" command on the terminal in project directory where docker-compose.yml file is present.
-
-5. Access the application in your web browser at`http://localhost:3000`
+4. Access the application in your web browser at `http://localhost:3000`
 
 ## Architecture and Design
 
