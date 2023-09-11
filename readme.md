@@ -36,6 +36,8 @@ To run this project locally, follow these steps:
 
 ## Architecture and Design
 
+![design](https://res.cloudinary.com/dlkcko4n6/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1694408372/message%20broker/yscjdjsn9gk3caag7qxk.jpg?_s=public-apps)
+
 The project consists of the following components:
 
 - **Message Queue**: This is where random messages are published.
