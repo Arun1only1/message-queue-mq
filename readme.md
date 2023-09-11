@@ -17,7 +17,7 @@ The objective of this project is to create a system that generates and processes
 
 The project leverages the following technologies:
 
-- Message Queue:RabbitMQ
+- Message Queue: [RabbitMQ](https://www.rabbitmq.com/)
 - Backend: Node.js
 - Frontend: React.js
 - Containerization: Docker
