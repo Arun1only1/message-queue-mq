@@ -11,7 +11,7 @@ This project simulates a high-volume data input environment using various techno
 
 ## Overview
 
-The objective of this project is to create a system that generates and processes high volumes of random messages. These messages are published to a message queue and then filtered and sent to a React.js frontend application via Socket.IO for display.There are two backend services: publisher and consumer.Publisher publishes 20 messages per second and adds them to rabbit mq queue. Provider consumes messages from queue and emits the messages with priority>=7 to the display-message app where message is displayed on browser.
+The objective of this project is to create a system that generates and processes high volumes of random messages. These messages are published to a message queue and then filtered and sent to a React.js frontend application via Socket.IO for display. There are two backend services: publisher and subscriber. Publisher publishes 20 messages per second and adds them to rabbit mq queue. Subscriber consumes messages from queue and emits the messages with priority greater than or equals to 7 to the display-message app where message is displayed on browser.
 
 ## Technologies
 
