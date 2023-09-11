@@ -4,11 +4,10 @@ FROM node:18-alpine
 # Install Tini for process management
 RUN apk add --update tini
 
-
-# Create a directory for your Node.js app
+# Create a directory for  Node.js app
 RUN mkdir -p /usr/src/app
 
-# Set the working directory to your app directory
+# Set the working directory to  app directory
 WORKDIR /usr/src/app
 
 # Install the latest version of npm globally
@@ -20,10 +19,11 @@ COPY package*.json ./
 # Install Node.js application dependencies
 RUN npm install
 
-# Copy the rest of your application code to the container
+# Copy the rest of  application code to the container
 COPY . .
 
+# Expose port 8000
 EXPOSE  8000
 
-# Start your Node.js application using Tini
+# Start  Node.js application using Tini
 CMD ["tini", "--", "npm","run", "prod"]
